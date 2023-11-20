@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/inicio"
+        android:title="Inicio" />
+    <item
+        android:id="@+id/añadir_parque"
+        android:title="Añadir Parques" />
+
+    <item
+        android:id="@+id/compartir"
+        android:title="Comparte"
+        android:icon="@drawable/compartir_foreground"
+        app:showAsAction="ifRoom"
+        />
+</menu>
